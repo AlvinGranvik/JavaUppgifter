@@ -13,7 +13,7 @@ public class Roulette {
     public static void main(String[] args) {
         int result = russianroulette(); //Resultatet av det slumpmässiga talet sparas i en int
         Scanner scanner = new Scanner(System.in); //Scanner definieras
-
+        
         System.out.println("Press ENTER to roll, there is a 1/6 chance for a fire."); //Russian roulette börjar
         scanner.nextLine(); //Väntar på spelare att trycka på enter
 
