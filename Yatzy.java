@@ -26,7 +26,7 @@ public class Yatzy {
         for (int i = 0; i < players.length; i++) { //Loopa tills alla spelare har skrivit in deras namn
             System.out.printf("Please enter your name player %d:\n", i + 1);
             String playerName = scanner.nextLine(); //Tar emot input från terminalen och deklarerar den som string PlayerName
-            players[i] = playerName; //String playerName blir players[i],och därmed får spelaren sitt namn
+            players[i] = playerName; //String playerName blir players[i], och därmed får spelaren sitt namn
         }
 
         //Arraylista som visar alla tärningsslag
@@ -42,7 +42,7 @@ public class Yatzy {
             //For loop där tärningar slås 6 gånger
             for (int b = 0; b < 6; b++) { // Loopa 6 gånger
                 int rollResult = rollDice(); // Denna funktion rullar tärningen
-                rollResults.add(rollResult);
+                rollResults.add(rollResult); //Kopplar ihop arraylista med rullade siffran
                 System.out.println("You rolled a: " + rollResult + " on roll number " + (b+1));
             }
             
@@ -52,8 +52,8 @@ public class Yatzy {
                 if (rollResults.contains(isKept)) {
                     
                 }*/
-                scanner.close(); //Scanner stängs för att förhindra en resource leak
             }
+            scanner.close(); //Scanner stängs för att förhindra en resource leakawDSwasd
         }
     }
 
