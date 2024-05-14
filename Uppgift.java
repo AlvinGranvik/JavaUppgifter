@@ -41,5 +41,6 @@ public class Uppgift {
         for (int i = 0; i < count; i++) {
             System.out.println(array[i]);
         }
+        scanner.close();
     }
 }
