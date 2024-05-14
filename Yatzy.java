@@ -52,7 +52,6 @@ public class Yatzy {
                 if (rollResults.contains(isKept)) {
                     
                 }*/
-                scanner.close(); //Scanner stängs för att förhindra en resource leak
             }
         scanner.close(); //Scanner stängs för att förhindra en resource leak
         }
